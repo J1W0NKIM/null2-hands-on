@@ -27,11 +27,11 @@
 이 프로젝트는 **Gradle Version Catalog** 기반으로 관리되며, 아래 환경을 기준으로 구성되어 있습니다.
 
 #### 📦 Build Environment
-| 구성 요소 | 버전 | 비고 |
+| 구성 요소 | 버전     | 비고 |
 |------------|--------|------|
-| **Android Gradle Plugin (AGP)** | 8.12.0 | Gradle 8.13 이상 필요 |
-| **Gradle Wrapper** | 8.13 | `gradle-wrapper.properties` 기준 |
+| **Android Gradle Plugin (AGP)** | 8.11.1 | Gradle 8.13 이상 필요 |
+| **Gradle Wrapper** | 8.13   | `gradle-wrapper.properties` 기준 |
 | **Kotlin** | 2.2.21 | JVM target 17 이상 권장 |
-| **Android SDK** | 34 이상 | Android Studio Koala(이후) 호환 |
+| **Android SDK** | 34 이상  | Android Studio Koala(이후) 호환 |
 
 #### 📁 주요 파일 구조
