@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "tj.hands.on"
+    namespace = "tj.handson"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "tj.hands.on"
+        applicationId = "tj.handson"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -28,15 +28,20 @@ android {
             )
         }
     }
+
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     kotlin {
         compilerOptions {
-            jvmTarget = JvmTarget.JVM_11
+            jvmTarget = JvmTarget.JVM_17
         }
+    }
+
+    buildFeatures {
+        viewBinding = true
     }
 }
 
